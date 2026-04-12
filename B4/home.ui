@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>823</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Terminal</family>
+   </font>
+  </property>
+  <property name="cursor">
+   <cursorShape>WaitCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolTipDuration">
+   <number>-1</number>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget {
+	background: #E0E3B8;
+}
+
+#click_btn {
+	background: #A5AB3E;
+	border-radius: 15px;
+	border: 1px solid black;
+	color: #3B3D02;
+}
+
+#click_btn:hover {
+	background: #3B3D02;
+	color: white;
+}
+
+#clicked_number_lb {
+	color: #3B3D02;
+}</string>
+  </property>
+  <property name="20" stdset="0">
+   <string/>
+  </property>
+  <property name="10" stdset="0">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="click_btn">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>330</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>.VnCooper</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>click me !</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="clicked_number_lb">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>410</y>
+      <width>301</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
